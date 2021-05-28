@@ -32,3 +32,85 @@
     font-size: large;
     margin-left: 153px;
 }
+
+/* A partir de acá empezamos con el responsive */
+
+@media all and (min-width: 600px) and (max-width:1023px){
+
+    #mision{
+        margin-top: 200px;
+        text-align: center;
+        color: #0c6650;
+    }
+    #contenidoArticulo{
+        width: 500px;
+        text-align: justify;
+        font-size: large;
+        /*font-weight: bolder;*/
+        margin-top: 100px;
+        margin-left: 50px;
+    }
+    #contenidoArticulo1{
+        width: 500px;
+        text-align: justify;
+        font-size: large;
+        /*font-weight: bolder;*/
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    #contenidoArticulo2{
+        width: 500px;
+        text-align: center;
+        font-weight: normal;
+        margin-left: 20px;
+        list-style-type: none;
+    }
+    #contenidoArticulo3{
+        width: 480px;
+        text-align: justify;
+
+        font-size: large;
+        margin-left: 50px;
+    }
+
+}
+
+/* Fin de media 600 1023 */
+
+@media all and (max-width:599px){
+
+    #mision{
+        margin-top: 250px;
+        text-align: center;
+        color: #0c6650;
+    }
+    #contenidoArticulo{
+        width: 300px;
+        text-align: justify;
+        font-size: large;
+        /*font-weight: bolder;*/
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    #contenidoArticulo1{
+        width: 300px;
+        text-align: justify;
+        font-size: large;
+        /*font-weight: bolder;*/
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    #contenidoArticulo2{
+        width: 300px;
+        text-align: center;
+        font-weight: normal;
+        margin-left: 20px;
+        list-style-type: none;
+    }
+    #contenidoArticulo3{
+        width: 300px;
+        text-align: justify;
+        font-size: large;
+        margin-left: 50px;
+    }
+}

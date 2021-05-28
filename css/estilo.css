@@ -80,6 +80,12 @@ nav ul li a:hover{
     font-family: 'Montserrat', sans-serif;
     list-style-type: disc;
 }
+#foot{
+    position: relative;
+    bottom: 0;
+    width: 95%;
+    height: 10px;
+}
 #datos{
     width: 960px;
     margin-top: 0px;
@@ -160,6 +166,7 @@ nav ul li a:hover{
         height: 300px;
         float: right;
         margin-top: 30px;
+        margin-left: 0px;
     }
     #imagen{
         margin-top: 50px;
@@ -174,16 +181,20 @@ nav ul li a:hover{
         font-family: 'Montserrat', sans-serif;
         list-style-type: disc;
     }
+    #foot{
+        position: relative;
+        bottom: 0;
+        width: 95%;
+        height: 40px;
+    }
     #datos{
-        width: 580px;
+        width: 450px;
         margin-top: 0px;
         text-align: right;
     }
 }
 
 /* Fin de media 600 1023 */
-
-/* A partir de acá empezamos con el responsive */
 
 @media all and (max-width:599px){
 
@@ -248,8 +259,8 @@ nav ul li a:hover{
     }
     #logo2{
         padding: 20px;
-        width: 400px;
-        height: 300px;
+        width: 350px;
+        height: 250px;
         float: none;
         margin-top: 40px;
     }
@@ -267,6 +278,12 @@ nav ul li a:hover{
         font-weight: bolder;
         font-family: 'Montserrat', sans-serif;
         list-style-type: disc;
+    }
+    #foot{
+        position: relative;
+        bottom: 0;
+        width: 95%;
+        height: 40px;
     }
     #datos{
         width: 300px;
