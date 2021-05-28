@@ -1,0 +1,34 @@
+#mision{
+    margin-top: 100px;
+    text-align: center;
+    color: #0c6650;
+}
+#contenidoArticulo{
+    width: 950px;
+    text-align: justify;
+    font-size: large;
+    /*font-weight: bolder;*/
+    margin-top: 100px;
+    margin-left: 153px;
+}
+#contenidoArticulo1{
+    width: 900px;
+    text-align: justify;
+    font-size: large;
+    /*font-weight: bolder;*/
+    margin-top: 10px;
+    margin-left: 153px;
+}
+#contenidoArticulo2{
+    width: 900px;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 153px;
+    list-style-type: none;
+}
+#contenidoArticulo3{
+    width: 900px;
+    text-align: justify;
+    font-size: large;
+    margin-left: 153px;
+}

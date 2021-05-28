@@ -1,0 +1,279 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    width: 960px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #b5936e;
+}
+p{
+    font-size: 14px;
+}
+#marca{
+    width: 10px;
+    height: 10px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+#logo{
+    width: 380px;
+    height: 200px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 110px;
+    border-radius: 300px;
+}
+#botoneraPrincipal{
+    width: 700px;
+    height: 40px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 145px;
+}
+#botoneraPrincipal ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: right;
+}
+#botoneraPrincipal ul li{
+    display: inline;
+}
+#botoneraPrincipal ul li a{
+    padding: 10px;
+    color: #0c6650;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: #000;
+    background-color: #bdba00;
+}
+#contenidoPrincipal{
+    width: 900px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+#tituloPrincipal{
+    text-align: center;
+    text-emphasis: inherit;
+}
+#logo2{
+    padding: 20px;
+    width: 400px;
+    height: 300px;
+    float: right;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+#imagen{
+    margin-top: 50px;
+}
+#contenidoArticulo1{
+    font-size: small;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    list-style-type: disc;
+}
+#datos{
+    width: 960px;
+    margin-top: 0px;
+    text-align: right;
+}
+
+/* A partir de acá empezamos con el responsive */
+
+@media all and (min-width: 600px) and (max-width:1023px){
+
+    header{
+        width: 580px;
+        height: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #b5936e;
+    }
+    p{
+        font-size: 12px;
+    }
+    #marca{
+        float: left;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #logo{
+        width: 300px;
+        height: 150px;
+        float: left;
+        align-content: left;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    #botoneraPrincipal{
+        width: 580px;
+        height: 40px;
+        float: right;
+        margin-top: 10px;
+        margin-right: 50px;
+        display: block;
+    }
+    #botoneraPrincipal ul{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        float: right;
+    }
+    #botoneraPrincipal ul li{
+        display: block;
+    }
+    #botoneraPrincipal ul li a{
+        padding: 10px;
+        color: #0c6650;
+        font-weight: bold;
+        text-decoration: none;
+        box-sizing: border-box;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    nav ul li a:hover{
+        color: #000;
+        background-color: #bdba00;
+    }
+    #contenidoPrincipal{
+        width: 580px;
+        height: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 200px;
+    }
+    #tituloPrincipal{
+        text-align: center;
+        text-emphasis: inherit;
+    }
+    #logo2{
+        padding: 20px;
+        width: 400px;
+        height: 300px;
+        float: right;
+        margin-top: 30px;
+    }
+    #imagen{
+        margin-top: 50px;
+    }
+    #contenidoArticulo{
+        font-size: small;
+        font-weight: bolder;
+    }
+    #contenidoArticulo1{
+        font-size: small;
+        font-weight: bolder;
+        font-family: 'Montserrat', sans-serif;
+        list-style-type: disc;
+    }
+    #datos{
+        width: 580px;
+        margin-top: 0px;
+        text-align: right;
+    }
+}
+
+/* Fin de media 600 1023 */
+
+/* A partir de acá empezamos con el responsive */
+
+@media all and (max-width:599px){
+
+    header{
+        width: 300px;
+        height: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #b5936e;
+    }
+    p{
+        font-size: 10px;
+    }
+    #marca{
+        float: left;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #logo{
+        width: 300px;
+        height: 150px;
+        float: none;
+        margin-top: 100px;
+        margin-left: none;
+    }
+    #botoneraPrincipal{
+        width: 300px;
+        height: 40px;
+        float: right;
+        margin-top: 0px;
+        margin-right: 150px;
+    }
+    #botoneraPrincipal ul{
+        margin: 0;
+        padding: 30;
+        list-style-type: none;
+        float: right;
+    }
+    #botoneraPrincipal ul li{
+        display: block;
+    }
+    #botoneraPrincipal ul li a{
+        padding: 10px;
+        color: #0c6650;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    nav ul li a:hover{
+        color: #000;
+        background-color: #bdba00;
+    }
+    #contenidoPrincipal{
+        width: 400px;
+        height: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 200px;
+    }
+    #tituloPrincipal{
+        text-align: center;
+        text-emphasis: inherit;
+    }
+    #logo2{
+        padding: 20px;
+        width: 400px;
+        height: 300px;
+        float: none;
+        margin-top: 40px;
+    }
+    #imagen{
+        margin-top: 50px;
+    }
+    #contenidoArticulo{
+        width: 300px;
+        font-size: small;
+        font-weight: bolder;
+    }
+    #contenidoArticulo1{
+        width: 300px;
+        font-size: small;
+        font-weight: bolder;
+        font-family: 'Montserrat', sans-serif;
+        list-style-type: disc;
+    }
+    #datos{
+        width: 300px;
+        margin-top: 100px;
+        text-align: right;
+    }
+}
+
+/* Fin de media 600 1023 */
+
